@@ -7,7 +7,6 @@ API REST de produtos em Java com Spring Boot, estruturada seguindo a **Arquitetu
 - Java 27
 - Spring Boot 4.2.0 (Web MVC, Data JPA)
 - PostgreSQL
-- Apache Kafka (dependência incluída para integração de eventos)
 - Docker Compose
 - Maven (wrapper incluído)
 
