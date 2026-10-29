@@ -15,12 +15,10 @@ public class ProductPersistenceAdapter implements ProductRepositoryPort {
         this.productJpaRepository = productJpaRepository;
     }
 
-
     @Override
     public Product save(Product product) {
         return ProductMapper.toDomain(productJpaRepository.save(ProductMapper.toJpa(product)));
     }
-
 
     @Override
     public PageResult<Product> listAll(PageQuery query) {
