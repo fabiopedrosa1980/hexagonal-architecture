@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a00c2a66-30f8-451e-b014-78717abc3fd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/web/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/out/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/out/persistence/ProductPersistenceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/config/BeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/in/CreateProductUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/in/ListProductsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/out/PageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/out/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/web/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/controller/request/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/web/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/in/controller/response/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/domain/dto/ProductDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/domain/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/out/persistence/ProductJpaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/domain/reposoitory/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/adapter/out/persistence/ProductJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/in/ProductPortIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/in/CreateProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/out/ProductPortOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/port/out/ProductRepositoryPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pedrosa/core/usecase/ProductUseCase.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.774077794724209E-96" />
+      <entry key="S5" value="1.0173089313940904E-38" />
+      <entry key="S10" value="1.4723005829113065E-19" />
+      <entry key="S30" value="9.996830052464944E-7" />
+      <entry key="S60" value="0.0017011355278043288" />
+      <entry key="M2" value="0.07148799197237193" />
+      <entry key="M5" value="0.8041158617647775" />
+      <entry key="M10" value="2.928925606799902" />
+      <entry key="M15" value="5.8471129122546905" />
+      <entry key="M30" value="17.064447051544718" />
+      <entry key="H1" value="43.25535379416083" />
+      <entry key="H2" value="81.6542985834733" />
+      <entry key="H4" value="117.26352328475441" />
+      <entry key="D1" value="161.85934569390918" />
+      <entry key="W1" value="171.3556546549681" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000023832" />
+      <entry key="S10" value="1.000001543781496" />
+      <entry key="S30" value="1.011577711285651" />
+      <entry key="S60" value="1.1172025216745924" />
+      <entry key="M2" value="1.6199725747291187" />
+      <entry key="M5" value="4.967744131814593" />
+      <entry key="M10" value="11.716459285899806" />
+      <entry key="M15" value="17.78884741025943" />
+      <entry key="M30" value="33.56162618647275" />
+      <entry key="H1" value="62.83511996961884" />
+      <entry key="H2" value="102.43819577394503" />
+      <entry key="H4" value="137.87454480279055" />
+      <entry key="D1" value="181.28067400597658" />
+      <entry key="W1" value="190.4205293231174" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.995983087689097E-10" />
+      <entry key="MS500" value="0.015517070241203688" />
+      <entry key="S2" value="0.35294125977771923" />
+      <entry key="S5" value="0.6592968072479863" />
+      <entry key="S10" value="0.8119722827249789" />
+      <entry key="S30" value="0.9439784853882054" />
+      <entry key="S60" value="1.0821594484083703" />
+      <entry key="M2" value="1.6672748517771911" />
+      <entry key="M5" value="5.743220892555129" />
+      <entry key="M10" value="14.608559955813298" />
+      <entry key="M15" value="23.596197855833044" />
+      <entry key="M30" value="50.58176344517594" />
+      <entry key="H1" value="106.04029816249782" />
+      <entry key="H2" value="184.04706324603754" />
+      <entry key="H4" value="255.10605760987067" />
+      <entry key="D1" value="343.1327699585757" />
+      <entry key="W1" value="361.77509049798175" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LKx9ae79PMKTYhJdFe811os39e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HexagonalArchitectureApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fabiopedrosa/Documents/workspace/hexagonal-architecture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="useHeartbeat" value="true" />
+      <setting name="focusEditor" value="false" />
+      <setting name="urlFile" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HexagonalArchitectureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="hexagonal-architecture" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.pedrosa.HexagonalArchitectureApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.pedrosa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HexagonalArchitectureApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a00c2a66-30f8-451e-b014-78717abc3fd0" name="Changes" comment="" />
+      <created>1793216409606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793216409606</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
