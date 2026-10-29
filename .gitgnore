@@ -14,8 +14,6 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-*.target
-
 # Outras IDEs (STS/Eclipse e VS Code)
 .apt_generated
 .classpath
