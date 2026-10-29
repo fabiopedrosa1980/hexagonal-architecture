@@ -171,14 +171,3 @@ curl "http://localhost:8080/products?page=0&size=10"
 - **Service sem anotações do Spring:** o `ProductService` é registrado manualmente em `BeanConfiguration`, mantendo o core livre de dependências de framework.
 - **Command por use case:** cada ação de escrita recebe um command específico (`CreateProductCommand`), evitando DTOs genéricos reaproveitados.
 
-## Próximos passos
-
-- Adicionar testes de arquitetura com [ArchUnit](https://www.archunit.org/) para garantir as regras de dependência.
-- Implementar publicação de eventos via Kafka como adapter de saída (`ProductEventPublisherPort`).
-- Adotar migrations com Flyway.
-- Adicionar tratamento global de erros (`@RestControllerAdvice`).
-- Implementar atualização e remoção de produtos.
-
-## Licença
-
-Defina a licença do projeto (por exemplo, MIT).
